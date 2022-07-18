@@ -54,8 +54,15 @@ If you are prompted for a file location, just hit enter so your SSH key is saved
   ssh-add ~/.ssh/id_ed25519
   ```
 - Copy the SSH key to your clipboard:
+  
+  **For Windows:**
   ```
   clip < ~/.ssh/id_ed25519.pub
+  ```
+
+  **For Mac:**
+  ```
+  pbcopy < ~/.ssh/id_ed25519.pub
   ```
 
 Now that your SSH key is activated and copied to your clipboard, in your browser go to GitHub. Go to your account settings,which are accessible from the dropdown menu that appears when you click your icon in the upper right corner of the webpage. In settings, select "SSH and GPG Keys" from the menu to the left, then click the green "New SSH key" button. In the smaller input box enter a nickname for the device which your SSH key is associated with, and in the larger input box paste your SSH key.
