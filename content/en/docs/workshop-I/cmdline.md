@@ -39,3 +39,14 @@ toc: true
 |	`conda env remove --name [your_environment_name]`   | Deletes an environment and everything in it. |
 
 **For more commands and resources,** see the [full `conda` cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf).
+
+## Bonus (MacOS): Styling Your Command Line
+Black-on-white can be difficult to read and harsh on the eyes, so you may want to consider giving it a more friendly colour scheme! To do so, download your favourite theme from [this repository and follow the installation instructions also provided in the `README`.](https://github.com/lysyi3m/macos-terminal-themes)
+
+## Bonus (Windows): Windows Terminal for "All-in-One" CLI
+Unlike the command line "shells" such as `zsh` or `bash` found on UNIX-based operating systems such as MacOS or Linux, Windows created its own version, Powershell. Powershell makes things a bit complicated for programming because it requires all command line tools to install their own separate CLIs (ex Anaconda Powershell Prompt, rather than being accessible from just the single Windows Powershell Prompt! 
+
+Microsoft has recently released [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-ca&gl=CA) as somewhat of a solution to keeping all your tools in one place-- you can add all your various CLIs into this terminal and open them in separate tabs rather than separate windows!
+
+- [Here is a guide to adding Git Bash](https://www.timschaeps.be/post/adding-git-bash-to-windows-terminal/)
+- [Here is a guide to adding Anaconda Powershell Prompt](https://medium.com/@shouke.wei/windows-python-developers-had-better-setup-earlier-iv-add-anaconda-powershell-on-windows-8942dd9cc1a)
