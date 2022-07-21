@@ -13,10 +13,13 @@ weight: 520
 toc: true
 ---
 
+{{< alert icon=":mega:" context="warning" text="<b>Don't use spaces</b> in your file or folder names! This can result in errors where your computer thinks the name is a command-- instead, replace spaces with underscores (Ex. "coding_workshop" rather than "coding workshop")  />}}  
+
 ## Command Line Basics
 | Mac & Linux       | Windows Powershell         | Use         |
 | ----------------- | ----------------- | ----------- |
-| `cd [path_to_file]` | `cd [path_to_file]` | **c**hange **d**irectory-- go to a different folder on your computer (*hint*: to go back a step type `..`) |
+| `cd [path_to_file]` | `cd [path_to_file]` | **c**hange **d**irectory-- go to a different folder on your computer |
+|  `cd ..`             | `cd ..`               | This takes you back a directory level. If your filepath looks like `Desktop/myFolder/data/`, entering `cd ..` will take you back to just `Desktop/myFolder/`. |
 |  `ls`             | `ls`                | **l**i**s**t all the files in the folder you're currently in  |
 | `pwd`               | `pwd`               | **p**rint **w**orking **d**irectory-- if you forget what folder you're in, type this and the command line will tell you where you are |
 | `mkdir [folder]`    | `mkdir [folder]`    | Creates a new directory (aka folder) in the directory you're in |
@@ -42,6 +45,8 @@ toc: true
 
 ## Bonus (MacOS): Styling Your Command Line
 Black-on-white can be difficult to read and harsh on the eyes, so you may want to consider giving it a more friendly colour scheme! To do so, download your favourite theme from [this repository and follow the installation instructions also provided in the `README`.](https://github.com/lysyi3m/macos-terminal-themes)
+
+You can also use Homebrew to install Neofetch with the command `brew install neofetch`. Neofetch will give you up-to-date information on your computer's software and hardware each time you open your terminal!
 
 ## Bonus (Windows): Windows Terminal for "All-in-One" CLI
 Unlike the command line "shells" such as `zsh` or `bash` found on UNIX-based operating systems such as MacOS or Linux, Windows created its own version, Powershell. Powershell makes things a bit complicated for programming because it requires all command line tools to install their own separate CLIs (ex Anaconda Powershell Prompt, rather than being accessible from just the single Windows Powershell Prompt! 

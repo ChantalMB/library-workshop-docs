@@ -19,6 +19,7 @@ toc: true
 ### *Do*
 
 > **For those using Apple devices**: You can make the installation of the following list very quick and easy by first installing [Homebrew](https://brew.sh/). Search "terminal" using Spotlight or in Finder, open the application, then paste the command featured centerally on the linked webpage (hit the little clipboard beside it) and hit enter! I will provide the installation commands for each item listed below that you can enter into the terminal after installing Homebrew.
+> Additionally, **if this is your first time using Terminal** enter the command which Terminal provides on launch in order to upgrade your shell from `bash` to `zsh`, then close and reopen Terminal.
 
 > {{< alert icon=":mega:" context="warning" text="<b>Beware:</b> Depending on your internet connectivity, Homebrew can take a <i>long</i> time to install. Best to just run the command and carry about your day, checking on it every so often to make sure there's no error message. If you receieve an error message that you cannot decipher, take a screenshot of your command line and send it to Chantal or Martha so we can help you troubleshoot!" />}}
 
@@ -30,6 +31,7 @@ toc: true
   	```
     brew install --cask miniconda
     ```
+    - **Note**: After this Homebrew command finishes running, type `conda activate` and you will recieve an error stating that your terminal has not been configured properly yet. Do as this error says and run `conda init bash` or `conda init zsh` depending on which shell name is written in the top bar of your terminal (the same bar where the "Exit" and "Minimize" buttons are found). After this, close then reopen the terminal so it updates-- at the beginning of your command prompt, you should see `(base)`. 
 - **Download [Visual Studio Code](https://code.visualstudio.com/)**
   - More commonly referred to as "VS Code", this is a "text editor" which allows you to write notes in Markdown (a markup language that many web-based platforms use, such as this website).
   - Homebrew installation command:
