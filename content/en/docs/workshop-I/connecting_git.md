@@ -13,11 +13,16 @@ weight: 540
 toc: true
 ---
 
-So GitHub knows that your personal device can be trusted, you must generate a SSH (**S**ecure **Sh**ell) key for your device which will then be added to your GitHub account so that you may upload and modify your work from your desktop.
+There are two options that will allow you to connect to GitHub from your computer; you can either create a personal access token (PAT) and connect via HTTPS (**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure) or you can generate an SSH (**S**ecure **Sh**ell) key for your device. Both, as you may have guessed by the name, are secure ways to transfer files to your GitHub account by letting GitHub know that your personal device can be trusted through a unique and elaborate "key", much like a password.
+
+The significant positive of using a PAT is how simple it is to set up! The negative is that you must keep it stored like a password, because you will need to enter it on any other devices that you intend to connect Git and GitHub on.
+
+If you run into trouble setting up your PAT, then you can also try generating an SSH key for GitHub. This is slightly more complicated to get up-and-running, but you don't have to write anything down since you generate a unique SSH key for every device you would like to connect!
 
 {{< alert icon="👉" context="info" text="<b>Windows Users:</b> To configure Git and perform the initial set up of GitHub on your device, you must use Git Bash which is located under the <q>Git</q> folder that can be accessed from the Start menu. After this step is done you may continue to use the Anaconda Powershell Prompt!" />}}  
 
-### Configure
+## Configuring Git
+
 These commands modify the configuration file (aka Settings) for Git, hence calling `git config`. The flag `--global` means that these configurations will only be applied to the user account you're logged into, rather than to every account on your device (assuming there's multiple).
 - To add a username associated with your device's Git profile (tip: use your Github username so this is easy to remember):
   ```
@@ -31,7 +36,36 @@ These commands modify the configuration file (aka Settings) for Git, hence calli
   ```
   git config --global color.ui true
   ```
+
+## Option #1: Using a PAT
+
+- On the GitHub website, go to your profile settings which can be accessed by selecting your profile picture in the upper right corner of the page.
+- In the left hand menu, scroll down to the bottom and open "Developer settings"
+- Select "Personal access tokens", then hit the button which says "Generate new token"
+
+Once on the **"New personal access token"** page you will:
+- Set the expiry date for your PAT- this is the interval at which you will have to generate a new PAT. Choose however long you feel comfortable keeping this "password" active for!
+- Grant access permissions for this PAT- since you are the admin user of your device that is connecting to your GitHub account, we suggest ticking every checkbox to make sure you do not miss any permissions you may need.
+
+Once your PAT is generated, save it with the rest of your passwords and treat it like one! If you accidentally push it to GitHub in a note file, the PAT will automatically be disabled and you will have to create a new one.
+
+**In the next step of this workshop,** when you enter the `git push` command:
+- **On MacOS**: You will be prompted in the command line to enter your GitHub username and password. Enter your username as expected, but **enter your PAT as the password** to connect your account.
+- **On Windows**: A login box will open giving you ways to connect to GitHub; select the option which asks to use a PAT and proceed as instructed. 
+
+Should you ever need to remove your PAT to set a new one, you can use the follow comannd to find the PAT:
+```
+security find-internet-password -l github.com
+```
+And then this command to delete it:
+```
+security delete-internet-password -l github.com
+```
+
+## Option #2: Using an SSH key
+
 ### Generate the SSH key
+
 Enter:
   ```
   ssh-keygen -t ed25519 -C "your_email@example.com"

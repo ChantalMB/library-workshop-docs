@@ -13,7 +13,7 @@ weight: 520
 toc: true
 ---
 
-{{< alert icon=":mega:" context="warning" text="<b>Don't use spaces</b> in your file or folder names! This can result in errors where your computer thinks the name is a command-- instead, replace spaces with underscores (Ex. "coding_workshop" rather than "coding workshop")  />}}  
+{{<alert icon=":mega:" context="warning" text="<b>Don't use spaces</b> in your file or folder names! This can result in errors where your computer thinks the name is a command-- instead, replace spaces with underscores (Ex. <q>coding_workshop</q> rather than <q>coding workshop</q>)"  />}}  
 
 ## Command Line Basics
 | Mac & Linux       | Windows Powershell         | Use         |
