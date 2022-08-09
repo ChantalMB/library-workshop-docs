@@ -24,6 +24,8 @@ toc: true
 It is strongly recommended that you have taken our DH basics workshop prior to attending this one, as it covers all of the above topics.
 
 ### *Do*
+{{< alert icon="👉" context="info" text="<b>Remember</b> that if something is in square brackets `[like this]` you should fill in where the square brackets are with what it is indicating you should enter <i>without</i> including the square bracket." />}}  
+
 - **Install Jupyter Notebook**
   - This is what is known as a "computational notebook". Within Jupyter Notebook, you can both write and run code as well as take notes or explain what you're doing, making it an excellent platform for sharing your work with others.
   - You can install it by running this command in the conda environment you wish to work in:
