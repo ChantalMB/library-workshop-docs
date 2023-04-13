@@ -38,6 +38,12 @@ In these GitHub Pages settings, change the source from "None" to your "main" bra
 
 <img src="/images/branch.png" title="change branch from 'none' to master branch" alt="alt title" width="100%"/>
 
+Now, while we wait for our site to publish, we can pick and add a theme! In VS Code, we will create a new text file (File > New Text File). This will be your "configuration file", meaning that this is where you will set the theme you would like to use, so save this file as `_config.yml` in the same folder as your markdown page. Now that you have a configuration file set up, you can [check out this list of themes](https://pages.github.com/themes/) GitHub Pages automatically supports! The links on this page will take you to a GitHub repository, and if you scroll down to the README, there will be a link that allows you to preview the selected theme, as well as instructions on what to paste into your configuration file in order to use the theme under the heading `Usage`. 
+
+<img src="/images/themes.png" title="Pick your theme and paste what the usage instructions detail into your configuration file" alt="alt title" width="100%"/>
+
+Once you have selected the theme you want to use and have pasted the information provided in the theme's README, you will save your configuration file and go through the git add-commit-push cycle once again to update your GitHub repository with your new file.
+
 {{< alert icon=":mega:" context="warning" text="<b>Note:</b> It can take up to 10 minutes for your site to publish!" />}}  
 
 This workshop covers how to publish a single page static site, but if you would like to challenge yourself and use what you learned in this workshop today to go further, here are some resources about creating a complete static site (like this very site you're on right now!) using a static site generator:
