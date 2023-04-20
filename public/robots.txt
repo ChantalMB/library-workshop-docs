@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dh-coding-docs.netlify.app/sitemap.xml

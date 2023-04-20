@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module III: Intro to Python Pt. 2 on </title>
+    <link>https://dh-coding-docs.netlify.app/docs/workshop-iii/</link>
+    <description>Recent content in Module III: Intro to Python Pt. 2 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://dh-coding-docs.netlify.app/docs/workshop-iii/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pre-Workshop Tasks</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-iii/pre-workshop-tasks/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-iii/pre-workshop-tasks/</guid>
+      <description>Pre-workshop Tasks # Update your repository of notebooks for this workshop by cding into the directory and entering the command git pull If this does not work, refer back to the &amp;ldquo;Pre-Workshop Tasks&amp;rdquo; of the first Python workshop for instruction on how to download the repository from GitHub </description>
+    </item>
+    
+    <item>
+      <title>Common Errors</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-iii/common-errors/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-iii/common-errors/</guid>
+      <description>Common Python Errors # Reminder: Read the whole error message! Python often points to the line where the error is at the beginning of the message, and at the end when it states the type of error, also often offers a suggestion to fix the error.
+Error Meaning Solution? ModuleNotFoundError Python couldn&amp;rsquo;t find the thing you tried to import At the top of your notebook create a new cell and enter !</description>
+    </item>
+    
+    <item>
+      <title>Pandas Quick Reference</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-iii/pandas-quick-reference/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-iii/pandas-quick-reference/</guid>
+      <description>Useful pandas functions # Note: In this table, df represents your dataframe variable
+Function Purpose df.describe() Computes summary statistics for numerical columns df[&amp;quot;colname&amp;quot;] Selects column and outputs the column as a series df[[&amp;quot;colname&amp;quot;]] Selects column and outputs the column as a dataframe df[&amp;quot;colname&amp;quot;].value_counts() Counts unique values in specified column df[df[&amp;quot;colname&amp;quot;] == &#39;searchTerm&#39;] Filters your dataframe to only show rows that include the search term df[&amp;quot;colname&amp;quot;].isna() OR df[&amp;quot;colname&amp;quot;].notna() Checks for values that are NaN (aka cells that are empty) df[&amp;quot;colname&amp;quot;].</description>
+    </item>
+    
+  </channel>
+</rss>

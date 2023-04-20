@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module I: The Command Line &amp; Git on </title>
+    <link>https://dh-coding-docs.netlify.app/docs/workshop-i/</link>
+    <description>Recent content in Module I: The Command Line &amp; Git on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://dh-coding-docs.netlify.app/docs/workshop-i/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Glossary for Module 1</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-i/glossary-for-module-1/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-i/glossary-for-module-1/</guid>
+      <description>Part I: Command line environment # Command line
+The command line is a blank line and cursor on the screen, allowing the user to type in instructions for the computer to execute. Command line interface
+A command line interface is a text-based user interface for a computer. Miniconda
+Miniconda is a command line environment; this is something which allows you to install programming related tools in their own “bubble” on your computer so that they can easily be managed/removed.</description>
+    </item>
+    
+    <item>
+      <title>Pre-Workshop Tasks</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-i/pre-workshop-tasks/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-i/pre-workshop-tasks/</guid>
+      <description>Read # The Schism at the Heart of the Open-Source Movement by Sidney Fussell
+Do # For those using Apple devices: You can make the installation of the following list very quick and easy by first installing Homebrew. Search &amp;ldquo;terminal&amp;rdquo; using Spotlight or in Finder, open the application, then paste the command featured centerally on the linked webpage (hit the little clipboard beside it) and hit enter! I will provide the installation commands for each item listed below that you can enter into the terminal after installing Homebrew.</description>
+    </item>
+    
+    <item>
+      <title>Working in the Command Line</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-i/working-in-the-command-line/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-i/working-in-the-command-line/</guid>
+      <description>📣 Don&#39;t use spaces in your file or folder names! This can result in errors where your computer thinks the name is a command-- instead, replace spaces with underscores (Ex. coding_workshop rather than coding workshop) Command Line Basics # Mac &amp;amp; Linux Windows Powershell Use cd [path_to_file] cd [path_to_file] change directory&amp;ndash; go to a different folder on your computer cd .. cd .. This takes you back a directory level.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Reference</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-i/markdown-reference/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-i/markdown-reference/</guid>
+      <description>More information on Markdown can be found here.
+Styling Markdown Headings # H1 ## H2 ### H3 Bold **bold text** Italic *italicized text* Blockquote &gt; Quotation Ordered list 1. First item 2. Second item 3. Third item Bullets - First item - Second item - Third item Task list - [x] Write the press release - [ ] Update the website - [ ] Contact the media Definition list term : definition Code `one line of code` Code block ``` { &#34;</description>
+    </item>
+    
+    <item>
+      <title>Connecting Git and GitHub</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-i/connecting-git-and-github/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-i/connecting-git-and-github/</guid>
+      <description>There are two options that will allow you to connect to GitHub from your computer; you can either create a personal access token (PAT) and connect via HTTPS (Hypertext Transfer Protocol Secure) or you can generate an SSH (Secure Shell) key for your device. Both, as you may have guessed by the name, are secure ways to transfer files to your GitHub account by letting GitHub know that your personal device can be trusted through a unique and elaborate &amp;ldquo;key&amp;rdquo;, much like a password.</description>
+    </item>
+    
+    <item>
+      <title>Pushing to GitHub &amp; Static Site Resources</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-i/pushing-to-github-static-site-resources/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-i/pushing-to-github-static-site-resources/</guid>
+      <description>Using Git # Creating a repository and adding it to Github # After going on to GitHub and creating a new repository by hitting the &amp;ldquo;+&amp;rdquo; symbol in the upper right corner:
+echo &amp;quot;# [your_project_name]&amp;quot; &amp;gt;&amp;gt; README.md This creates a README file (which you can modify later). git init This initializes your folder as a git repository (aka to be tracked with git). git add -A This command adds all of the files and/or changes you have made to the files in your folder to the git repository.</description>
+    </item>
+    
+  </channel>
+</rss>

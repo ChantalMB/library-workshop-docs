@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prologue on </title>
+    <link>https://dh-coding-docs.netlify.app/docs/prologue/</link>
+    <description>Recent content in Prologue on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://dh-coding-docs.netlify.app/docs/prologue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://dh-coding-docs.netlify.app/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/</guid>
+      <description>Digital humanities can be defined as a scholarly community of practice in which humanists use computational methodologies to solve a range of research problems.
+Typically, humanists are scholars in fields such as history, literary studies, religious studies, music, archaeology, philosophy, and linguistics.
+They are trained in the qualitative research methods of these humanistic disciplines and then adopt computational methods that require an expertise in computer programming.
+This suite of workshops is designed to introduce humanists to computational methods.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module II: Intro to Python Pt. 1 on </title>
+    <link>https://dh-coding-docs.netlify.app/docs/workshop-ii/</link>
+    <description>Recent content in Module II: Intro to Python Pt. 1 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://dh-coding-docs.netlify.app/docs/workshop-ii/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pre-Workshop Tasks</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-ii/pre-workshop-tasks/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-ii/pre-workshop-tasks/</guid>
+      <description>Prerequisite for this workshop # Have basic knowledge of the command line Understanding of Git and Github Already have installed: Miniconda A text editor Git It is strongly recommended that you have taken our DH basics workshop prior to attending this one, as it covers all of the above topics.
+Do # 👉 Remember that if something is in square brackets `[like this]` you should fill in where the square brackets are with what it is indicating you should enter without including the square bracket.</description>
+    </item>
+    
+    <item>
+      <title>Comparison Operators</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-ii/comparison-operators/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-ii/comparison-operators/</guid>
+      <description>Common Python Errors # 📣 Remember: &#39;=&#39; is the assignment operator, not used for comparison! Operator Meaning == Equal to != Not equal to &amp;lt; Less than &amp;gt; Greater than &amp;lt;= Less than or equal to &amp;gt;= Greater than or equal to </description>
+    </item>
+    
+    <item>
+      <title>Boolean Operators</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-ii/boolean-operators/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-ii/boolean-operators/</guid>
+      <description>&amp;ldquo;and&amp;rdquo; # Expression Evaluation True and True True True and False False False and True False False and False False &amp;ldquo;or&amp;rdquo; # Expression Evaluation True or True True True or False True False or True True False or False False </description>
+    </item>
+    
+    <item>
+      <title>Further Resources</title>
+      <link>https://dh-coding-docs.netlify.app/workshop-ii/further-resources/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>https://dh-coding-docs.netlify.app/workshop-ii/further-resources/</guid>
+      <description> W3Schools Python guide Melanie Walsh&amp;rsquo;s course on Cultural Analytics The Programming Historian </description>
+    </item>
+    
+  </channel>
+</rss>
