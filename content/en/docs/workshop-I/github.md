@@ -16,13 +16,20 @@ toc: true
 ## Using Git
 ### Creating a repository and adding it to Github
 After going on to GitHub and creating a new repository by hitting the "+" symbol in the upper right corner:
-1) To create the README file (which you can modify later): `echo "# [your_project_name]" >> README.md`
-2) Initialize your folder as a git repository (aka to be tracked with git): `git init`
+1) `echo "# [your_project_name]" >> README.md`
+   - This creates a README file (which you can modify later).
+2) `git init`
+   - This initializes your folder as a git repository (aka to be tracked with git).
 3) `git add -A`
+   - This command adds all of the files and/or changes you have made to the files in your folder to the git repository.
 4) `git commit -m "first commit"`
+   - This command confirms what you have added by requiring you to describe the additions you are making to your git repository.
 5) `git branch -M main`
+   - This sets the name of your repository's primary branch; "main" could be replaced by any word you please!
 6) `git remote add origin [link to your repository on github]`
+   - This tells git that you would like to connect the repository currently on your device to an externally hosted, "remote" service. In our case, this is GitHub.
 7) `git push -u origin main`
+   - This is the final "save", confirming all of the changes you made and fully adding them to both your local git repository and your remote repository on GitHub.
 
 ### Updating your repository following its creation
 {{< alert icon="👉" context="info" text="If you are working in a repo that has multiple users, your first command before should be <code>git pull</code> so that the repository on your computer receives any changes made by other users!" />}}  
