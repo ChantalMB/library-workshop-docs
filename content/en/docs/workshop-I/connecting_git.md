@@ -53,14 +53,11 @@ Once your PAT is generated, save it with the rest of your passwords and treat it
 - **On MacOS**: You will be prompted in the command line to enter your GitHub username and password. Enter your username as expected, but **enter your PAT as the password** to connect your account.
 - **On Windows**: A login box will open giving you ways to connect to GitHub; select the option which asks to use a PAT and proceed as instructed. 
 
-Should you ever need to remove your PAT to set a new one, you can use the follow comannd to find the PAT:
+Should you ever need to remove your PAT to set a new one, you can use the follow command to remove the PAT:
 ```
-security find-internet-password -l github.com
+git config --global --unset credential.helper
 ```
-And then this command to delete it:
-```
-security delete-internet-password -l github.com
-```
+And you will be prompted to enter your new PAT the next time you `git push`!
 
 ## Option #2: Using an SSH key
 
