@@ -13,7 +13,9 @@ weight: 740
 toc: true
 ---
 
+Jupyter Notebook is an open-source application that allows users to create and share documents which can be composed of Python code, informative text, and visual guides. It facilitates the reproducibility of research when programming is invovled, but it also is an excellent teaching tool, since Jupyter Notebook allows you to easily run your code piece by piece, so you can truly understand what each line does.
 
+You installed Jupyter Notebook as a pre-workshop task, so here's how to use it!
 
 ### Option #1: Using Visual Studio Code
 
